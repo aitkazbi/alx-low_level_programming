@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-* main to print a line with puts function.
-* return 0.
+* main to print exactly "Programming is like building a multilingual puzzle, followed by a new line*Use the function puts 
+*return 0.
 */
 int main(void)
 {
