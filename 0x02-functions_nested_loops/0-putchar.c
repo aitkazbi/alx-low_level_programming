@@ -1,7 +1,7 @@
-#include 'main.h'
+#include main.h'
 int main(void)
 {
--putchar('-');
+-putchar('_');
 -putchar('p');
 -putchar('u');
 -putchar('t');
@@ -11,4 +11,3 @@ int main(void)
 -putchar('r');
 return(0);
 }
-		}
