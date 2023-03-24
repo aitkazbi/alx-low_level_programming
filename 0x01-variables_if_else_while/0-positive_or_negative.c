@@ -1,27 +1,27 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
 
 /**
- * main - prints a random number and check if its positve
- * negative, or zero
- *
- * Return: 0 Always
- */
+*main-printsarandomnumberandcheckifitspositve
+*negative,orzero
+*
+*Return:0Always
+*/
 
-int main(void)
+intmain(void)
 {
-	int n;
+	intn;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	n=rand()-RAND_MAX/2;
 
-	if (n < 0)
-		printf("%d is negative\n", n);
-	else if (n > 0)
-		printf("%d is positive\n", n);
+	if(n<0)
+		printf("%disnegative\n",n);
+	elseif(n>0)
+		printf("%dispositive\n",n);
 	else
-                printf("%d is zero\n", n);
+printf("%diszero\n",n);
 
-	return (0);
+	return(0);
 }
