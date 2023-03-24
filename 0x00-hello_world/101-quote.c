@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
-  * main - A C programme that that prints exactly and   
+  * main - A C programme that that prints exactly and
   * that piece of art is useful"
   * - Dora Korpar, 2015-10-19,
-  * followed by a new line,  
+  * followed by a new line,
   * to the standard error.
   * return 1
   */
