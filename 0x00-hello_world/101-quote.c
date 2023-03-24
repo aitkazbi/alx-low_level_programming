@@ -6,7 +6,7 @@
   * - Dora Korpar, 2015-10-19,
   * followed by a new line,
   * to the standard error.
-  * return 1
+  * Return: Always 1.
   */
 int main(void)
 {
