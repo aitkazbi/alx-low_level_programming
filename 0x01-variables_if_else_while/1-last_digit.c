@@ -5,8 +5,9 @@
  * a random number to the variable n each time it is executed
  * Return Always
  * betty style doc for function main goes there
+ * main a random number to the variable n 
  */
-int main (void)
+int main(void)
 {
 	int n;
 
@@ -16,7 +17,7 @@ int main (void)
 if (n > 5)
 {
 printf("Last digit of is %d and is greater than 5", n);
-if else (n == 0)
+if else(n == 0)
 {
 printf("Last digit of is %d and is 0", n);
 }
