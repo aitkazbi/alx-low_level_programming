@@ -2,8 +2,9 @@
 #include <time.h>
 /* more headers goes there
  * a random number to the variable n each time it is executed
- * Returne Always */
-/* betty style doc for function main goes there */
+ * Returne Always 
+ * betty style doc for function main goes there
+ */
 int main(void)
 {
 	int n;
