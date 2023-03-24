@@ -10,6 +10,6 @@
   */
 int main(void)
 {
-fput("and that piece of art is useful\" - Dora Korpar, 2015-10-9\n")
+fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-9\n", stderr);
 return (1);
 }
