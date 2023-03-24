@@ -1,4 +1,4 @@
-#include <stdio.h>
+i#include <stdio.h>
 #include <unistd.h>
 /**
   * main - A C programme that that prints exactly and
@@ -10,6 +10,6 @@
   */
 int main(void)
 {
-fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-9\n", stderr);
+fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stderr);
 return (1);
 }
