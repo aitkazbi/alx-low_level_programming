@@ -8,10 +8,17 @@
 int main(void)
 {
 int n = 97;
+int m = 65;
 while (n <= 122)
 {
-printf("%s%s$\n", n, putchar(n));
+putchar(n);
 n++;
 }
+while (n <= 90)
+{
+putchar(m);
+n++;
+}
+putchar('n');
 return (0);
 }
