@@ -13,5 +13,5 @@ while (n <= 122)
 putchar(n);
 n++;
 }
-return(0);
+return (0);
 }
