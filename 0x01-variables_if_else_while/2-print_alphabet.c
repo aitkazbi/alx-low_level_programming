@@ -13,6 +13,6 @@ while (n <= 122)
 putchar(n);
 n++;
 }
-putchar( );
+putchar (  );
 return (0);
 }
