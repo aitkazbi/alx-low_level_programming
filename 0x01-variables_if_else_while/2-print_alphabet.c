@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-char ch = 'A';
+char ch = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 putchar(ch);
 return (0);
 }
