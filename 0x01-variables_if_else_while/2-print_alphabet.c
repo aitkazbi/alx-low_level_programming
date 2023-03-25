@@ -7,7 +7,11 @@
  */
 int main(void)
 {
-char ch = 'AXYZ';
-rintf(, putchar(ch));
+int n = 97;
+while (n <=122 );
+putchar(n);
+n++;
+}
+putchar ( );
 return (0);
 }
