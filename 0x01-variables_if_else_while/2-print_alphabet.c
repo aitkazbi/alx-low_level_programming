@@ -8,6 +8,6 @@
 int main(void)
 {
 char ch = 'A';
-putchar (ch);
+putchar(ch);
 return 0;
 }
