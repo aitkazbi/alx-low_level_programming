@@ -9,5 +9,5 @@ int main(void)
 {
 char ch = 'A';
 putchar(ch);
-return 0;
+return (0);
 }
