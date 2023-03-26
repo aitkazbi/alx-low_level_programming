@@ -7,10 +7,10 @@
   */
 int main(void)
 {
-int n = 48;
-while (n <= 57)
-{
-putchar(n + 48);
+int n;
+for (n == 0, n <= 9, n++)
+{  
+putchar(n);
 n++;
 }
 putchar(' ');
