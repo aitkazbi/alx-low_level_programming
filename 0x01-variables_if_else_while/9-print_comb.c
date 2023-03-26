@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-  * main- print the alphabet in lowercase
+  * main- prints all possible combinations of single-digit numbers.
   *
   *
   * Return: Always 0.
