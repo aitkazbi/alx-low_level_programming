@@ -2,9 +2,7 @@
 #include <stdio.h>
 
 /**
-  *main- prints  10 times the alphabet, in lowercase, followed by a new line.
-  * print_alphabet - Prints the alphabet in lowercase,
-  *followed by a new line.
+  * main- prints  10 times the alphabet, in lowercase, followed by a new line.
   *
   * Return: Always 0.
   */
