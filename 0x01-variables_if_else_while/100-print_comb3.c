@@ -8,6 +8,7 @@
 int main(void)
 {
 int n;
+int m;
 for (n = 0; n <= 89; n++)
 {
 if (n <= 9)
