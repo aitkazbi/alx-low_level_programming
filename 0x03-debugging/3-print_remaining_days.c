@@ -7,7 +7,7 @@
 * @month: month in number format
 * @day: day of month
 * @year: year
-* update print_remaining_days 
+* update print_remaining_days
 *  month will never be less than 1 or greater than 12
 *  day will never be less than 1 or greater than 31
 * Return: void
