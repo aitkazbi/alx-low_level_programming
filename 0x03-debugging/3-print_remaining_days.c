@@ -7,6 +7,9 @@
 * @month: month in number format
 * @day: day of month
 * @year: year
+* update print_remaining_days 
+*  month will never be less than 1 or greater than 12
+*  day will never be less than 1 or greater than 31
 * Return: void
 */
 
@@ -24,7 +27,7 @@ printf("Remaining days: %d\n", 366 - day);
 }
 else
 {
-if (month == 2 && day == 60)
+if (month >= 1 && month < 12 && day >= 1 && day < 31)
 {
 printf("Invalid date: %02d/%02d/%04d\n", month, day - 31, year);
 }
