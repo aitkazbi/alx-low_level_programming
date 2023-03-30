@@ -16,7 +16,7 @@ for (c = 0; c <= 5; c++)
 {
 for (d = 0; d <= 9; d++)
 {
-if(a >= 2 && d++)
+if(a >= 2 && d >= 4)
 break;
 _putchar(a + '0');
 _putchar(b + '0');
