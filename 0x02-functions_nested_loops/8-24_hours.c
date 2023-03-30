@@ -16,15 +16,20 @@ for (c = 0; c <= 5; c++)
 {
 for (d = 0; d <= 9; d++)
 {
-if(a >= 2 && d >= 4)
-break;
+
 _putchar(a + '0');
 _putchar(b + '0');
 _putchar(':');
 _putchar(c + '0');
 _putchar(d + '0');
 _putchar('\n');
-
+if (a == 2 && b == 3 && c == 5 && d == 9)
+{
+a = 10;
+b = 10;
+c = 10;
+d = 10;
+}
 }
 }
 }
