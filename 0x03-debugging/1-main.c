@@ -1,12 +1,8 @@
 #include <stdio.h>
-#include "main.h"
+
 /**
-* main - Entry point
-*
-*This program demonstrates an infinite loop and
-*how to avoid it using comments.
-*
-* Return: Always 0 (Success)
+* main - causes an infinite loop
+* Return: 0
 */
 
 int main(void)
@@ -14,12 +10,13 @@ int main(void)
 int i;
 
 printf("Infinite loop incoming :(\n");
-/**
+
 i = 0;
+/*
 *while (i < 10)
-* {
-*   putchar(i);
-* }
+*{
+*putchar(i);
+*}
 */
 printf("Infinite loop avoided! \\o/\n");
 
