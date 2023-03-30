@@ -1,28 +1,32 @@
 #include "main.h"
 
-/*
- * print_sign - prints the sign of a number
- * @n: the number to cheks
- * Return: 1 and prints + if n  is greater than sero
- * Return: 0 and prints 0 if n is zero
- * Return: -1 and prints - if n is less than zero
+/**
+ * print_sign - Prints the sign of a number.
  *
- */
-int print_sign(int n){
+ * @n: The number the input number as an integer.
+ *
+ * Return: 1 if the number  is greater than zero.
+ *         0 if the number is zero.
+ *         -1if the number is less than zero
+*/
 
-if(n > 0)
+int print_sign(int n)
 {
-return (1);
+
+if (n > 0)
+{
 _putchar('+');
+return (1);
 }
-else if(n = 0)
+else if (n == 0)
 {
-return (0);
 _putchar('0');
+return (0);
 }
 else
 {
-return (-1);
 _putchar('\-');
+return (-1);
 }
 }
+
