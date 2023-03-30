@@ -12,13 +12,11 @@ int num = n % 10;
 if (num < 0)
 {
 num *= -1;
-_putchar(num + '0');
-
-return (num);
+}
 else
 {
-return (num);
+_putchar(num + '0');
 }
 _putchar('\n');
-}
+return (num);
 }
