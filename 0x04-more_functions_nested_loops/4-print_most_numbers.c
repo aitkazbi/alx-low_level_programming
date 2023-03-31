@@ -15,7 +15,7 @@ if (i == 2 && i == 4)
 {
 continue;
 }
-else 
+else
 {
 _putchar(i + '0');
 }
