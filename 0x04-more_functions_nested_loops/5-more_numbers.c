@@ -9,22 +9,36 @@
   */
 void more_numbers(void)
 {
-int i;
-int j;
-for (j = 0; j <= 9; j++)
+int count, i, changer, id;
+count = 0;
+id = 0;
+while (count < 10)
 {
+i = 0;
 for (i = 0; i <= 14; i++)
 {
-if (i <= 9)
+changer = i;
+if (i < 10)
 {
-_putchar(i + '0');
+changer = i;
 }
 else
 {
-_putchar(i / 10 + '0');
-_putchar(i % 10 + '0');
+changer = 1;
+}
+_putchar(changer + '0');
+if (i > 9)
+{
+_putchar(id + '0');
+id++;
 }
 }
+
 _putchar('\n');
+if (i == 15)
+{
+id = 0;
+}
+count++;
 }
 }
