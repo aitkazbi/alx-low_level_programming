@@ -1,14 +1,6 @@
-#include "main.h"
-#include <unistd.h>
+#include <stdio.h>
 
-/**
- * _putchar - writes the character c as output
- * @c: The character to print
- *
- * Return: The value of C.
- */
-
-int _putcha(char c)
+void _putchar(char c)
 {
-return (write(&c));
+putchar(c);
 }
