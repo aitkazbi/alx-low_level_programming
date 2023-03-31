@@ -3,9 +3,9 @@
 /**
   *_isupper- Checks for uppercase character
   *
-  *@c: Variable the input 
-  *Return: 1 if c is uppercase 
-  *        0 if otherwise 
+  *@c: Variable the input
+  *Return: 1 if c is uppercase
+  *        0 if otherwise
   */
 
 int _isupper(int c)
