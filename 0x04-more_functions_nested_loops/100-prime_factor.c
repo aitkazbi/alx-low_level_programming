@@ -2,19 +2,39 @@
 /**
 *main - find prime factor 
 *
+*Return: Always 0
 */
 
 int main()
 {
-long n = 1231952;
-long i;
+int i, j, Pri;
+long int nom;
 
-for (i = 2; i <= n; i++) {
-while (n % i == 0) {
-n /= i;
+nom = 612852475143;
+
+printf("The Prime Factors of %ld are: \n", nom);
+
+for(i = 2; i <= nom; i++)
+{
+if(nom%i == 0)
+{
+Pri = 1;
+for(j = 2; j <=i/ 2; j++)
+{
+if(i%j == 0)
+{
+Pri = 0;
+break;
 }
 }
 
-printf("%ld\n", i-1);
+if(Pri == 1)
+{
+printf("%d, ", i);
+}
+}
+}
+
 return 0;
 }
+
