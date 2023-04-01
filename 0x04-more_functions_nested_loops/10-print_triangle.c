@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_triangle - check the code for Holberton School students.
- *@size: variable
+ * print_triangle - prints a triangle, followed by a new line.
+ * @size: variable
  * Return: Always 0.
  */
 void print_triangle(int size)
@@ -27,5 +27,9 @@ i--;
 cnt++;
 _putchar('\n');
 }
+}
+else
+{
+_putchar('\n');
 }
 }
