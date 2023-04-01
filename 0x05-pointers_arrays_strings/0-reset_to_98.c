@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
   *reset_to_98 -takes a pointer to an int as parameter
-  *
-  *Return: 0
+  *@*n: Variable the input
+  *Return: No return
   *
   */
 void reset_to_98(int *n)
