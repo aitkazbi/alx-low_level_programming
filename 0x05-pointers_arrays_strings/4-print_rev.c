@@ -2,15 +2,21 @@
 #include <string.h>
 
 /**
- * print-rev - prints a string, in reverse 
+ * print_rev - prints a string, in reverse
  * @s: variable.
  */
-void _puts(char *s)
+void print_rev(char *s)
 {
 int i;
+int j;
 for (i = 0; s[i] != '\0'; i--)
 {
-_putchar(str[i]);
+continue;
+}
+i--;
+for (j = 0; j <= i; i--)
+{
+_putchar(s[i]);
 }
 _putchar('\n');
 }
