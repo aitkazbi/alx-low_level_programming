@@ -3,7 +3,7 @@
 
 /**
   *strlen_recu- count the lentgh of a string
-  *@string: variable the string
+  *@c: variable the string
   *Return: the lenght
   *
   */
@@ -24,10 +24,10 @@ return (0);
 char Check_palindrome(char *s, int i, int j)
 {
 if (s[i] == s[j])
-if (i > j /2)
+if (i > j / 2)
 return (1);
 else
-return (Check_palindrome(s, i+1, j-1));
+return (Check_palindrome(s, i + 1, j - 1));
 else
 return (0);
 }
@@ -41,6 +41,6 @@ return (0);
   */
 int is_palindrome(char *s)
 {
-return (Check_palindrome(s, 0, strlen_recu(s)-1));
+return (Check_palindrome(s, 0, strlen_recu(s) - 1));
 }
 
