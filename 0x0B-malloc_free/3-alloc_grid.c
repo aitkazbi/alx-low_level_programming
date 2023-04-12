@@ -26,7 +26,6 @@ for (i = height - 1; i >= 0; i--)
 {
 free(n[i]);
 }
-free(n);
 return (NULL);
 }
 
@@ -39,11 +38,9 @@ for (j = i - 1; j >= 0; j--)
 {
 free(n[j]);
 }
-free(n);
 return (NULL);
 }
 }
-
 for (k = 0; k < height; k++)
 {
 for (l = 0; l < width; l++)
@@ -51,6 +48,5 @@ for (l = 0; l < width; l++)
 n[k][l] = 0;
 }
 }
-
 return (n);
 }
