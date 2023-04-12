@@ -1,0 +1,9 @@
+#
+sitive_or_negative.c:15: ERROR: spaces preferred around that '/' (ctx:VxV)
+0-positive_or_negative.c:16: ERROR: space prohibited after that open parenthesis '('
+0-positive_or_negative.c:16: ERROR: space prohibited before that close parenthesis ')'
+0-positive_or_negative.c:16: ERROR: space required before the open parenthesis '('
+0-positive_or_negative.c:18: ERROR: space prohibited after that open parenthesis '('
+0-positive_or_negative.c:18: ERROR: space prohibited before that close parenthesis ')'
+0-positive_or_negative.c:18: ERROR: space required before the open parenthesis '('
+0-positive_or_negative.c:22: ERROR: space required before the open parenthesis '('
