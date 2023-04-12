@@ -18,11 +18,6 @@ if (argc != 3)
 printf("Error");
 return (1);
 }
-if (num1 == 0 || num2 == 0)
-{
-printf("Error");
-return (1);
-}
 else
 printf("%d\n", (num1 * num2));
 return (0);
