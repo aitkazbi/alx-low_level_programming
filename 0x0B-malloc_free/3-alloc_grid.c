@@ -16,7 +16,7 @@ int i, j, k, l;
 int **n;
 
 if (width <= 0 || height <= 0)
-return NULL;
+return (NULL);
 
 n = malloc(sizeof(int *) * height);
 
@@ -27,7 +27,7 @@ for (i = height - 1; i >= 0; i--)
 free(n[i]);
 }
 free(n);
-return NULL;
+return (NULL);
 }
 
 for (i = 0; i < height; i++)
@@ -40,7 +40,7 @@ for (j = i - 1; j >= 0; j--)
 free(n[j]);
 }
 free(n);
-return NULL;
+return (NULL);
 }
 }
 
