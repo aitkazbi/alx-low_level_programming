@@ -38,7 +38,8 @@ count = count - coins[j];
 j = 0;
 }
 }
-} else
+}
+else
 {
 printf("Error\n");
 return (1);
