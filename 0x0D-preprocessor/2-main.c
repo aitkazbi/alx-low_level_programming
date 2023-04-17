@@ -1,5 +1,3 @@
-#include "file-name.h"
-#include "file-name.h"
 #include <stdio.h>
 
 /**
@@ -9,8 +7,7 @@
  */
 int main(void)
 {
-char c;
-c = a;
-printf("%.3f\n", a);
+
+printf("%.3f\n", __FILE__);
 return (0);
 }
