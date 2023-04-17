@@ -1,6 +1,6 @@
 #ifndef FUNCTION_ABC_H
 #define FUNCTION_ABC_H
 
-#define ABC(x) ((x) * (x) * (x))
+#define ABS(x) ((x) < (0) ? ((x) * (-1)) : (x)) 
 
 #endif
