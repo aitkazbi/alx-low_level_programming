@@ -8,7 +8,7 @@
   *
   * Description: The attributes of a dog
   */
-struct dog
+#define struct dog
 {
 char *name;
 float age;
