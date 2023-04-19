@@ -14,14 +14,5 @@ char *name;
 float age;
 char *owner;
 };
-/**
-struct dog *d(char *name, float age, char *owner)
-{
-struct dog dog-t;
-dog-t = malloc(sizeof(struct dog));
-if (dog-t == NULL)
-return (NULL);
-}
-*/
 void init_dog(struct dog *d, char *name, float age, char *owner);
 #endif
