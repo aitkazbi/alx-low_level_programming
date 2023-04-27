@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "lists.h"
-void myStartupFun (void) __attribute__ ((constructor));
+void myStartupFun(void) __attribute__ ((constructor));
 /**
  * myStartupFun - prints before main
  *
