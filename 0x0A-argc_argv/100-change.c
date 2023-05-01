@@ -9,43 +9,34 @@
  */
 int main(int argc, char *argv[])
 {
-int mony;
-int j;
-int count;
-int coins[5] = {25, 10, 5, 2, 1};
 
-count = 0;
-mony = 0;
+int cents;
+int nCoin = 0;
 
-if (argc == 2)
-{
-for (j = 0; j <= 4; j++)
-{
-if (atoi(argv[1]) >= coins[j])
-{
-mony = atoi(argv[1]) / coins[j];
-count = atoi(argv[1]) % coins[j];
-break;
-}
-}
+	if (argc == 1 || argc > 2)
+	{
+		printf("Error\n");
+		return (1);
+	}
 
-for (j = 0; j <= 4; j++)
-{
-if (count >= coins[j])
-{
-mony++;
-count = count - coins[j];
-j = 0;
-}
-}
-}
-else
-{
-printf("Error\n");
-return (1);
-}
-printf("%d\n", mony);
-return (0);
+	cents = atoi(argv[1]);
+
+	while (cents > 0)
+	{
+		if (cents >= 25)
+			cents -= 25;
+		else if (cents >= 10)
+			cents -= 10;
+		else if (cents >= 5)
+			cents -= 5;
+		else if (cents >= 2)
+			cents -= 2;
+		else if (cents >= 1)
+			cents -= 1;
+		nCoin += 1;
+	}
+	printf("%d\n", nCoin);
+	return (0);
 }
 
-
+}
