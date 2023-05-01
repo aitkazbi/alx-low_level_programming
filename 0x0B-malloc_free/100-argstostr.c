@@ -1,21 +1,47 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-/**
-* free_grid -rees a 2 dimensional grid previously created
-*@grid: rows of matrix
-*@height: columns of string
-* Return: a pointer to a 2 dimensional array of integers or null
-*/
-void free_grid(int **grid, int height)
-{
-int i;
-int *p;
 
-for (i = 0; i < height; i++)
+/**
+ * argstostr - concatenates all the arguments of your program
+ * @ac: argument count
+ * @av: pointer to a string of pointers to strings
+ *
+ * Return: a pointer to a new string, or NULL if it fails
+ */
+char *argstostr(int ac, char **av)
 {
-p = grid[i];
-free(p);
-}
-free(grid);
+	int i, j, k;
+	int sumlen = 0;
+	char *arg_concat;
+
+	if (ac == 0 || av == NULL)
+		return (NULL);
+
+	for (i = 0; i < ac; i++)
+	{
+		for (j = 0; av[i][j] != '\0'; j++)
+			sumlen++;
+		sumlen++;
+	}
+	sumlen++;
+
+	arg_concat = malloc(sumlen * sizeof(char));
+	if (arg_concat == NULL)
+	{
+		free(arg_concat);
+		return (NULL);
+	}
+
+	k = 0;
+	for (i = 0; i < ac; i++)
+	{
+		for (j = 0; av[i][j] != '\0'; j++, k++)
+		{
+			arg_concat[k] = av[i][j];
+		}
+		arg_concat[k] = '\n';
+		k++;
+	}
+	return (arg_concat);
 }
