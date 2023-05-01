@@ -39,4 +39,4 @@ int nCoin = 0;
 	return (0);
 }
 
-}
+
